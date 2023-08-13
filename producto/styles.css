@@ -202,9 +202,268 @@ ul li a:hover{
     transition: all .4s ease-in-out;
 }
 
+
+/*Este es un media screen promedio aun no lo domino muy bien*/
+
 @media screen and (max-width:700px){
-    #header{
-      background-color: rebeccapurple;  
+
+
+    #hero {
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 200px;
+        margin-bottom: 100px;
+        height: 10px;
+        
     }
+    
+    
+    #hero input[type='email'] {
+        max-width: 275px;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    #hero input[type='submit'] {
+        max-width: 150px;
+        width: 100%;
+        height: 40px;
+        margin: 25px 0;
+        border: 0;
+        background-color: var(--color-principal);
+    }
+
+
+#caracter{
+    display: block;
+
+    
 }
+
+.icons{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(15rem, 1fr)) ;
+    color: var(--color-principal);
+    width: 2em;
+    height: 1vw;
+    font-size: 35px;
+
+}
+
+
+
+.description{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    height: 125px;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+
+#precios{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+/*Este es un media screen promedio aun no lo domino muy bien*/
+
+@media screen and (max-width:700px){
+
+
+    #hero {
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 200px;
+        margin-bottom: 100px;
+        height: 10px;
+        
+    }
+    
+    
+    #hero input[type='email'] {
+        max-width: 275px;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    #hero input[type='submit'] {
+        max-width: 150px;
+        width: 100%;
+        height: 40px;
+        margin: 25px 0;
+        border: 0;
+        background-color: var(--color-principal);
+    }
+
+
+#caracter{
+    display: block;
+
+    
+}
+
+.icons{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(15rem, 1fr)) ;
+    color: var(--color-principal);
+    width: 2em;
+    height: 1vw;
+    font-size: 35px;
+
+}
+
+
+
+.description{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    height: 125px;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+
+#precios{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+/*Este es un media screen promedio aun no lo domino muy bien*/
+
+@media screen and (max-width:700px){
+
+
+    #hero {
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 200px;
+        margin-bottom: 100px;
+        height: 10px;
+        
+    }
+    
+    
+    #hero input[type='email'] {
+        max-width: 275px;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    #hero input[type='submit'] {
+        max-width: 150px;
+        width: 100%;
+        height: 40px;
+        margin: 25px 0;
+        border: 0;
+        background-color: var(--color-principal);
+    }
+
+
+#caracter{
+    display: block;
+
+    
+}
+
+.icons{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(15rem, 1fr)) ;
+    color: var(--color-principal);
+    width: 2em;
+    height: 1vw;
+    font-size: 35px;
+
+}
+
+
+
+.description{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    height: 125px;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+
+#precios{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
 
